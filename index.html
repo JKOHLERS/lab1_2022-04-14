@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Currency Converter - Lab1 - J. Kohler</title>
+  <link rel="stylesheet" href="style/style.css">
+  <!-- <script src="script/jquery-3.6.0.min.js"></script> -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="script/script.js"></script>
+</head>
+
+<body>
+  <div class="container">
+    <div>
+      <h1>Convert</h1>
+    </div>
+
+    <div>
+
+      <div class="form-group">
+        <input id="fromTB" class="form-field" type="text" placeholder="From">
+
+      </div>
+
+      <div class="form-group">
+        <input id="toTB" class="form-field" type="text" placeholder="To">
+      </div>
+
+      <div class="form-group">
+        <input id="amountTB" class="form-field" type="number" placeholder="Amount">
+      </div>
+
+      <div class="form-button">
+        <button type="button" id="convert" onclick="conversion()">Convert</button>
+      </div>
+
+    </div>
+    <div id="resultDIV" class="resultDIV"></div>
+
+
+</body>
+
+</html>
