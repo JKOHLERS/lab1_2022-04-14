@@ -48,7 +48,7 @@ function conversion() {
         document.getElementById("resultDIV").innerHTML = `${amountB} ${fromB.toUpperCase()} = ${result} ${toB.toUpperCase()}`;
       });
   }
-  //localStorage
+  //localStorage - still not working properly. need to be reviewed.
   var data = { "From": fromB, "To": toB, "Amount": amountB };
   //var pastConversions = [];
 
